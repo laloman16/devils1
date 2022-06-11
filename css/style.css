@@ -1,0 +1,359 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+
+body {
+   background-color: black;
+
+}
+
+
+nav a .logo {
+   width: 10%;
+   height: 75px;
+   align-items: center;
+   margin: 10px;
+   padding: 5px;
+
+}
+
+
+.titulo1 {
+   background-color: darkblue;
+   font-size: 60px;
+   color: red;
+   display: grid;
+   text-align: center;
+
+}
+
+
+.h2color {
+
+   color: yellow;
+   padding: 40px;
+}
+
+
+.menu li a {
+   display: grid;
+   align-items: center;
+}
+
+ul li a {
+
+   padding: 30px;
+   text-decoration: none;
+   color: greenyellow;
+   margin: 5px;
+
+
+}
+
+
+.videoindex {
+
+   display: grid;
+   align-items: center;
+   padding: 20px;
+   margin: 70px;
+
+
+}
+
+
+.menufooter {
+
+   background-color: rgb(6, 13, 116);
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+
+}
+
+
+.menufooter li {
+   display: inline-block;
+   padding: 30px;
+}
+
+
+.pie p {
+   color: white;
+   text-align: center;
+
+
+}
+
+.sobrenosotros {
+   padding: 50px;
+   color: aliceblue;
+   text-align: center;
+}
+
+.imgsobrenos {
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+
+
+}
+
+h1 .h1nosotros {
+   background-color: blue;
+   color: red;
+}
+
+
+.h3color {
+
+   color: rgb(14, 8, 1);
+   text-align: left;
+   padding: 10px;
+   margin: 20px;
+}
+
+
+.controls {
+   display: grid;
+   place-items: center;
+
+
+
+}
+
+.musicacont {
+   background-image: url(../recursos/instrumento-de-percusion-imagen-animada-0151.gif);
+   background-repeat: no-repeat;
+
+
+   display: grid;
+   place-items: center;
+   background-color: rgb(10, 194, 250);
+   justify-items: center;
+   padding: 30px;
+}
+
+
+.gridcontainer {
+   display: grid;
+   place-items: center;
+   padding: 50px;
+   border: 5px;
+
+
+}
+
+
+.videoyou {
+
+   background-image: url(https://64.media.tumblr.com/7694afd439a30061b78927e57f46b07e/162ba5918b072c6e-fd/s400x600/f6d3b2de65b80a6e11d8c5042c9e3c89b6b720bc.gifv);
+   background-repeat: no-repeat;
+   display: grid;
+   place-items: center;
+   background-color: rgb(10, 194, 250);
+   justify-items: center;
+   padding: 30px;
+}
+
+
+
+/* formulario */
+
+
+
+.form-register {
+   width: 400px;
+   background: #24303c;
+   background-image: url(../recursos/9-devil.png);
+
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 4px;
+   font-family: 'calibri';
+   color: white;
+   box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+   font-size: 22px;
+   margin-bottom: 20px;
+}
+
+.controls {
+   ;
+   background: #24303c;
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border: 1px solid #1f53c5;
+   font-family: 'calibri';
+   font-size: 18px;
+   color: white;
+}
+
+.form-register p {
+   max-width: 550px;
+   height: 40px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 18px;
+   line-height: 40px;
+}
+
+.form-register a {
+   color: white;
+   text-decoration: none;
+}
+
+.form-register a:hover {
+   color: white;
+   text-decoration: underline;
+}
+
+.form-register .botons {
+   width: 100%;
+   background: #1f53c5;
+   border: none;
+   padding: 12px;
+   color: white;
+   margin: 16px 0;
+   font-size: 16px;
+}
+
+@media (max-width:768px) {
+   .flexcontainer {
+      flex-direction: column;
+
+
+
+   }
+}
+
+@media(max-width:425) {
+   .flexcontainer flex: direction: columns:;
+
+}
+
+.menu img {
+   position: absolute;
+   left: 500px;
+   top: 280px;
+   width: 550px;
+   height: 420px;
+   flex: content;
+   align-content: center;
+
+}
+
+.form-register h4 {
+   max-width: 550px;
+   height: 40px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 18px;
+   line-height: 40px;
+
+}
+
+
+.form-register .controls {
+
+   max-width: 550px;
+   height: 40px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 18px;
+   line-height: 40px;
+
+}
+
+
+.videoyou img {
+   position: fixed;
+
+}
+
+.flexcontainer {
+   transition: all.9s;
+   f
+}
+
+.flexcontainer h1 {
+   transition: all: 300ms;
+
+   color: red;
+   text-align: center;
+   font-size: 50px;
+   tras
+}
+
+.flexcontainer:hover h1 {
+   background: blue;
+   transform: scale(1.5)
+}
+
+@media (max-width:425) {
+
+   .main div .videoindex {
+      flex-direction: column;
+
+   }
+}
+
+.logo {
+   transition: all: 1s;
+
+}
+
+
+.logo :hover {
+   transform: scale(1.5)
+}
+
+
+.gridcontainer img {
+   transition: all: 300ms;
+
+}
+
+
+.d1 :hover {
+   transform: scale(1.5)
+}
+
+.d2 :hover {
+   transform: scale(1.5)
+}
+
+.d3 :hover {
+   transform: scale(1.5)
+}
+
+
+.d4 :hover {
+   transform: scale(1.5)
+}
+
+
+.d5 :hover {
+   transform: scale(1.5)
+}
+
+
+.menufooter li{
+   transition: all:2s;
+}
+
+
+.menufooter li:hover{
+
+   transform: scale(1.1)
+}
+
+
+
